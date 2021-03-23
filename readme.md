@@ -8,7 +8,7 @@ Installations require just simple things:
 
 1. First clone Or Download the repo
 ```bash
-git clone <repo>
+git clone https://github.com/saurav0705/Unblock-Glassdoor-Chrome-Extension.git
 ```
 2. Open a new Chrome Tab and go here [chrome://extensions/](chrome://extensions/)
 
