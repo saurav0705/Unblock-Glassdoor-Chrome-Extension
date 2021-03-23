@@ -7,9 +7,7 @@ contextMenus.createContextForGlassdoor = chrome.contextMenus.create({title:'Unbl
 })
 
 const contextMenuHandler = (info,tab) => {
-    console.log({info})
     if(info.menuItemId ===  contextMenus.createContextForGlassdoor){
-        console.log('YOU HVAE UNBLOCKED GLASSDOOR');
         chrome.tabs.executeScript({
             file:'scripts/unblockGlassdoor.js'
         })
